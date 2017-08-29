@@ -6,8 +6,7 @@
 #
 # This file is to be processed with autoconf to generate a configure script.
 
-AC_INIT([pdsh],
-        m4_esyscmd([git describe --always |  awk '/.*/ {sub(/^pdsh-/, ""); printf "%s",$1; exit}']))
+AC_INIT([pdsh],[2.32])
 
 AC_CONFIG_SRCDIR([pdsh])
 AC_CONFIG_AUX_DIR([config])
